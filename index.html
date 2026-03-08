@@ -19,7 +19,7 @@
   <meta name="twitter:description" content="Expert-reviewed calming products for anxious dogs. Breed-specific guides, vet-approved supplements, and honest reviews. Find the right solution for your dog today."/>
   <meta name="twitter:image" content="https://picsum.photos/seed/calm-dog-hero/1200/630"/>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AnxietyFree Pups","description":"Expert dog anxiety solutions and affiliate product reviews","url":"https://www.anxietyfreepups.com/"}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How long does it take for calming chews to work?","acceptedAnswer":{"@type":"Answer","text":"Most calming chews take 30–90 minutes to work. Give them 45–60 minutes before a triggering event like thunderstorms, fireworks, or travel."}},{"@type":"Question","name":"Do Pugs need anxiety vests?","acceptedAnswer":{"@type":"Answer","text":"Yes — Pugs are highly prone to anxiety. A snug anxiety vest like Thundershirt can reduce stress signals by up to 80% in clinical studies."}},{"@type":"Question","name":"Are calming chews or sprays better for separation anxiety?","acceptedAnswer":{"@type":"Answer","text":"Calming chews work best for predictable events (give 45 min before). Sprays like Adaptil work faster (15 min). For separation anxiety, combine both: spray the crate and give a chew."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How long does it take for calming chews to work?","acceptedAnswer":{"@type":"Answer","text":"Most calming chews take 30–90 minutes to work. Give them 45–60 minutes before a triggering event like thunderstorms, fireworks, or travel."}},{"@type":"Question","name":"Do Pugs need anxiety vests?","acceptedAnswer":{"@type":"Answer","text":"Yes — Pugs are highly prone to anxiety. A snug anxiety vest like Thundershirt can reduce stress signals by up to 80% in clinical studies."}},{"@type":"Question","name":"Are calming chews or sprays better for separation anxiety?","acceptedAnswer":{"@type":"Answer","text":"Calming chews work best for predictable events (give 45 min before). Sprays like Adaptil work faster (15 min). For separation anxiety, combine both: spray the crate and give a chew."}},{"@type":"Question","name":"What is the best calming product for thunderstorm-scared dogs?","acceptedAnswer":{"@type":"Answer","text":"The most effective combo: Thundershirt (pressure therapy) + Adaptil spray on a bandana + closing curtains to block lightning flashes. Start 30–45 minutes before the storm if you have advance warning."}},{"@type":"Question","name":"Can senior dogs use the same calming products?","acceptedAnswer":{"@type":"Answer","text":"Mostly yes, but with care. Avoid melatonin in dogs with hormonal conditions. Zylkene and Adaptil are safe for all ages. Always consult your vet for dogs over 10 years old."}},{"@type":"Question","name":"Why is my dog pacing at night?","acceptedAnswer":{"@type":"Answer","text":"Nighttime pacing is often caused by cognitive dysfunction (especially in seniors), pain, or generalized anxiety. A DAP diffuser plus melatonin (0.1mg/kg) 30 minutes before bed is a common starting protocol. See your vet if it persists beyond 2 weeks."}}]}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -90,7 +90,7 @@
     .product-card:hover{background:rgba(255,255,255,.1);border-color:var(--sand);transform:translateY(-4px)}
     .product-emoji{font-size:2.8rem;margin-bottom:1rem;display:block}
     .product-card h3{font-family:'Playfair Display',Georgia,serif;font-size:1.05rem;color:white;margin-bottom:.5rem}
-    .product-card p{font-size:.82rem;color:rgba(255,255,255,.6);line-height:1.5;margin-bottom:1rem}
+    .product-card p{font-size:.82rem;color:rgba(255,255,255,.82);line-height:1.5;margin-bottom:1rem}
     .product-tags{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1.2rem}
     .tag{background:rgba(212,169,106,.2);color:var(--sand);padding:.2rem .6rem;border-radius:100px;font-size:.68rem;font-weight:500}
     .product-link{display:block;text-align:center;background:var(--sand);color:var(--bark);padding:.65rem;border-radius:10px;text-decoration:none;font-weight:600;font-size:.85rem;transition:all .2s}
@@ -122,12 +122,13 @@
     footer ul a{color:rgba(255,255,255,.5);text-decoration:none;font-size:.82rem;transition:color .2s}
     footer ul a:hover{color:var(--sand)}
     .footer-bottom{background:rgba(0,0,0,.2);padding:1.2rem 5vw;text-align:center;font-size:.75rem;color:rgba(255,255,255,.6)}
-    .affiliate-note{background:rgba(212,169,106,.1);border:1px solid rgba(212,169,106,.2);border-radius:8px;padding:1rem 1.5rem;margin-top:3rem;font-size:.75rem;color:rgba(255,255,255,.4);line-height:1.6}
+    .affiliate-note{background:rgba(212,169,106,.1);border:1px solid rgba(212,169,106,.2);border-radius:8px;padding:1rem 1.5rem;margin-top:3rem;font-size:.75rem;color:rgba(255,255,255,.65);line-height:1.6}
     @keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
     @keyframes float{0%,100%{transform:rotate(3deg) translateY(0)}50%{transform:rotate(3deg) translateY(-10px)}}
     .reveal{opacity:1;transform:translateY(0);transition:opacity .5s ease,transform .5s ease}
     .reveal.visible{opacity:1;transform:translateY(0)}
-    @media(max-width:768px){.hero{grid-template-columns:1fr;padding:4rem 5vw 3rem;gap:2rem}.hero-visual{display:none}nav{display:none}footer{grid-template-columns:1fr 1fr}.faq-grid{grid-template-columns:1fr}.trust-bar{gap:1.5rem}.cta-banner{padding:2.5rem 1.5rem;margin:0 5vw 3rem}}
+    @media(min-width:769px) and (max-width:1100px){.products-grid{grid-template-columns:repeat(2,1fr)}.breeds-grid{grid-template-columns:repeat(2,1fr)}.faq-grid{grid-template-columns:1fr}.footer{grid-template-columns:1fr 1fr}}
+    @media(max-width:768px){.hero{grid-template-columns:1fr;padding:4rem 5vw 3rem;gap:2rem}.float-row{display:none!important}.hero-card.main{padding:1.2rem}.hero-dog-img{height:120px}nav{display:none}footer{grid-template-columns:1fr 1fr}.faq-grid{grid-template-columns:1fr}.trust-bar{gap:1.5rem}.cta-banner{padding:2.5rem 1.5rem;margin:0 5vw 3rem}}
   
     .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:.5rem;background:none;border:none;z-index:200}
     .hamburger span{display:block;width:22px;height:2px;background:var(--bark);border-radius:2px;transition:all .3s}
@@ -210,8 +211,8 @@
       <div class="article-body"><h3>How Long Do Calming Chews Take to Work?</h3><p>The #1 question dog owners ask. We answer in the first paragraph, then break down every top brand by speed, ingredients, and cost.</p></div>
     </a>
     <a href="guides/separation-anxiety.html" class="article-card reveal">
-      <div class="article-thumb" style="background:linear-gradient(135deg,#6B8F6C,#3D5A3E);display:flex;align-items:center;justify-content:center;font-size:3.5rem;position:relative"><span style="font-size:3.5rem;line-height:1;z-index:1">🐾</span><span class="card-cat">PRODUCT ROUNDUP</span></div>
-      <div class="article-body"><h3>Best Heartbeat Sheep Toy for Puppy Anxiety</h3><p>We compare Snuggle Puppy vs 3 competitors — which one keeps puppies calm through the night?</p></div>
+      <div class="article-thumb" style="background:linear-gradient(135deg,#6B8F6C,#3D5A3E);display:flex;align-items:center;justify-content:center;font-size:3.5rem;position:relative"><span style="font-size:3.5rem;line-height:1;z-index:1">🐾</span><span class="card-cat">COMPLETE GUIDE</span></div>
+      <div class="article-body"><h3>Dog Separation Anxiety: The 3-Layer Protocol That Works</h3><p>Calming products alone won't fix it. Here's the exact environmental + chemical + behavioral system that actually resolves separation anxiety.</p></div>
     </a>
     <a href="guides/calming-chews.html" class="article-card reveal">
       <div class="article-thumb" style="background:linear-gradient(135deg,#E8C4A0,#C49A6C);display:flex;align-items:center;justify-content:center;font-size:3.5rem;position:relative"><span style="font-size:3.5rem;line-height:1;z-index:1">🦴</span><span class="card-cat">COMPARISON</span></div>
@@ -221,13 +222,13 @@
       <div class="article-thumb" style="background:linear-gradient(135deg,#2C1A0E,#4A3020);display:flex;align-items:center;justify-content:center;font-size:3.5rem;position:relative"><span style="font-size:3.5rem;line-height:1;z-index:1">🌙</span><span class="card-cat">NIGHT ANXIETY</span></div>
       <div class="article-body"><h3>How to Stop an Old Dog From Crying at Night</h3><p>Emotional, practical, and product-backed. Senior dog anxiety is a different beast — here's the exact routine that works for dogs 7+.</p></div>
     </a>
-    <a href="guides/separation-anxiety.html" class="article-card reveal">
-      <div class="article-thumb" style="background:linear-gradient(135deg,#9B7DBF,#6B4FA0);display:flex;align-items:center;justify-content:center;font-size:3.5rem;position:relative"><span style="font-size:3.5rem;line-height:1;z-index:1">🏠</span><span class="card-cat">SITUATIONAL</span></div>
-      <div class="article-body"><h3>Top-Rated Calming Collars for Dogs During House Moving</h3><p>Moving day is one of the most stressful events for dogs. This guide covers collars + diffusers + protocols to keep your dog calm throughout.</p></div>
-    </a>
     <a href="guides/thundershirt-review.html" class="article-card reveal">
-      <div class="article-thumb" style="background:linear-gradient(135deg,#D4A96A,#A07840);display:flex;align-items:center;justify-content:center;font-size:3.5rem;position:relative"><span style="font-size:3.5rem;line-height:1;z-index:1">✂️</span><span class="card-cat">GROOMING</span></div>
-      <div class="article-body"><h3>Calming Treats for Dogs During Grooming Sessions</h3><p>Give 30 minutes before grooming. Here are 5 best calming treats ranked by speed, palatability, and whether they actually work at the groomer.</p></div>
+      <div class="article-thumb" style="background:linear-gradient(135deg,#9B7DBF,#6B4FA0);display:flex;align-items:center;justify-content:center;font-size:3.5rem;position:relative"><span style="font-size:3.5rem;line-height:1;z-index:1">🧥</span><span class="card-cat">PRODUCT REVIEW</span></div>
+      <div class="article-body"><h3>Thundershirt Review 2026: Does Pressure Therapy Really Work?</h3><p>80% success rate in clinical trials — but what does that mean for your dog? Sizing guide, honest verdict, and when to combine it with other products.</p></div>
+    </a>
+    <a href="guides/nighttime-anxiety.html" class="article-card reveal">
+      <div class="article-thumb" style="background:linear-gradient(135deg,#D4A96A,#A07840);display:flex;align-items:center;justify-content:center;font-size:3.5rem;position:relative"><span style="font-size:3.5rem;line-height:1;z-index:1">🌙</span><span class="card-cat">SENIOR DOGS</span></div>
+      <div class="article-body"><h3>Why Is My Senior Dog Pacing at Night? Causes & Solutions</h3><p>Senior dogs cry at night for specific reasons — pain, cognitive decline, vision loss. The right solution depends on the root cause. Here's how to find it.</p></div>
     </a>
   </div>
 </section>

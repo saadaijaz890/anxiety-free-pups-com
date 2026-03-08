@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact AnxietyFreePups | Get in Touch</title>
+  <meta name="description" content="Have a question about dog anxiety or a product recommendation? Reach out to the AnxietyFreePups team — we read every message."/>
+  <link rel="canonical" href="https://www.anxietyfreepups.com/resources/contact"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="AnxietyFreePups"/>
+  <meta property="og:url" content="https://www.anxietyfreepups.com/resources/contact"/>
+  <meta property="og:title" content="Contact AnxietyFreePups | Get in Touch"/>
+  <meta property="og:description" content="Have a question about dog anxiety or a product recommendation? Reach out to the AnxietyFreePups team."/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root{--cream:#FAF7F2;--warm-white:#FFFEF9;--bark:#2C1A0E;--bark-light:#5C3D2A;--moss:#3D5A3E;--sand:#D4A96A;--sand-light:#EDD9B0;--text:#1A1208;--text-muted:#6B5A4A;--shadow:0 4px 32px rgba(44,26,14,.10)}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'DM Sans',system-ui,-apple-system,sans-serif;background:var(--cream);color:var(--text)}
+    header{position:sticky;top:0;z-index:100;background:rgba(250,247,242,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--sand-light);padding:0 5vw;display:flex;align-items:center;justify-content:space-between;height:64px}
+    .logo{font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;font-weight:900;color:var(--bark);text-decoration:none}.logo span{color:var(--moss)}
+    nav{display:flex;gap:2rem}nav a{text-decoration:none;color:var(--text-muted);font-size:.9rem;font-weight:500;transition:color .2s}nav a:hover{color:var(--moss)}
+    .nav-cta{background:var(--moss);color:white!important;padding:.5rem 1.2rem;border-radius:100px}
+    .hero{background:linear-gradient(135deg,var(--sand-light) 0%,var(--cream) 60%);padding:5rem 5vw 4rem;text-align:center}
+    h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(2.2rem,4vw,3.2rem);font-weight:900;color:var(--bark);margin-bottom:1rem}
+    .lead{font-size:1.1rem;color:var(--text-muted);max-width:560px;margin:0 auto;line-height:1.7}
+    .contact-section{max-width:680px;margin:0 auto;padding:4rem 5vw}
+    .contact-card{background:var(--warm-white);border:1px solid var(--sand-light);border-radius:20px;padding:2rem 2.5rem;margin-bottom:1.5rem;box-shadow:var(--shadow)}
+    .contact-card h2{font-family:'Playfair Display',Georgia,serif;font-size:1.3rem;color:var(--bark);margin-bottom:.8rem}
+    .contact-card p{font-size:.95rem;color:var(--text-muted);line-height:1.7;margin-bottom:1rem}
+    .contact-card p:last-child{margin-bottom:0}
+    .contact-card a{color:var(--moss);text-decoration:none;font-weight:500}
+    .contact-card a:hover{text-decoration:underline}
+    .note-box{background:rgba(61,90,62,.07);border-left:4px solid var(--moss);border-radius:0 12px 12px 0;padding:1rem 1.5rem;font-size:.88rem;color:var(--text-muted);margin-top:1rem;line-height:1.6}
+    .note-box strong{color:var(--moss)}
+    footer{background:var(--bark);color:rgba(255,255,255,.5);padding:3rem 5vw;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem}
+    footer .logo{color:var(--sand-light);display:block;margin-bottom:.8rem}
+    footer p{font-size:.82rem;line-height:1.65}
+    footer h4{color:white;font-size:.85rem;font-weight:600;margin-bottom:1rem}
+    footer ul{list-style:none}footer ul li{margin-bottom:.5rem}
+    footer ul a{color:rgba(255,255,255,.5);text-decoration:none;font-size:.82rem;transition:color .2s}
+    footer ul a:hover{color:var(--sand)}
+    .footer-bottom{background:rgba(0,0,0,.2);padding:1.2rem 5vw;text-align:center;font-size:.75rem;color:rgba(255,255,255,.6)}
+    .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:.5rem;background:none;border:none;z-index:200}
+    .hamburger span{display:block;width:22px;height:2px;background:var(--bark);border-radius:2px;transition:all .3s}
+    .hamburger.open span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+    .hamburger.open span:nth-child(2){opacity:0}
+    .hamburger.open span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+    .mobile-menu{display:none;position:fixed;inset:0;background:var(--cream);z-index:150;padding:80px 2rem 2rem;flex-direction:column;overflow-y:auto}
+    .mobile-menu.open{display:flex}
+    .mobile-menu a{font-size:1.1rem;font-weight:500;color:var(--bark);text-decoration:none;padding:1rem 0;border-bottom:1px solid var(--sand-light);transition:color .2s}
+    .mobile-menu a:hover{color:var(--moss)}
+    .mobile-menu .mob-cta{background:var(--moss);color:white!important;border-radius:100px;text-align:center;padding:.9rem 1.5rem;margin-top:1.5rem;border:none}
+    @media(max-width:768px){nav{display:none}footer{grid-template-columns:1fr 1fr}.hamburger{display:flex}}
+  </style>
+</head>
+<body>
+<header>
+  <a href="../" class="logo">AnxietyFree<span>Pups</span></a>
+  <nav>
+    <a href="../#guides">Breed Guides</a>
+    <a href="../#products">Top Products</a>
+    <a href="../#faq">FAQ</a>
+    <a href="../#products" class="nav-cta">Shop Now</a>
+  </nav>
+  <button class="hamburger" id="menuToggle" aria-label="Menu" onclick="var m=document.getElementById('mobileNav');m.classList.toggle('open');this.classList.toggle('open')"><span></span><span></span><span></span></button>
+</header>
+
+<div class="hero">
+  <h1>Get in Touch</h1>
+  <p class="lead">Questions about dog anxiety, product recommendations, or partnership enquiries — we read every message.</p>
+</div>
+
+<div class="contact-section">
+  <div class="contact-card">
+    <h2>General Questions & Dog Advice</h2>
+    <p>Have a question about your dog's anxiety symptoms or not sure which product to try? We're happy to point you in the right direction based on your dog's breed, size, and anxiety type.</p>
+    <p>Email us at <a href="mailto:hello@anxietyfreepups.com">hello@anxietyfreepups.com</a> — we aim to reply within 2 business days.</p>
+    <div class="note-box"><strong>Please note:</strong> We are not veterinarians. For medical concerns, always consult a licensed vet or veterinary behaviorist. We can recommend products and protocols, but we cannot diagnose conditions.</div>
+  </div>
+
+  <div class="contact-card">
+    <h2>Content & Editorial</h2>
+    <p>Spotted an error in one of our guides? Have a product you'd like us to review? We welcome corrections and suggestions — accuracy is everything to us.</p>
+    <p>Email: <a href="mailto:hello@anxietyfreepups.com">hello@anxietyfreepups.com</a> with the subject line "Editorial Feedback".</p>
+  </div>
+
+  <div class="contact-card">
+    <h2>Affiliate & Partnership Enquiries</h2>
+    <p>We work with select brands whose products genuinely help anxious dogs. If you'd like to discuss a partnership, please review our <a href="affiliate-disclosure.html">affiliate disclosure</a> first, then reach out with details about your product and any clinical data available.</p>
+    <p>Email: <a href="mailto:hello@anxietyfreepups.com">hello@anxietyfreepups.com</a> with the subject line "Partnership".</p>
+  </div>
+</div>
+
+<footer>
+  <div><a href="../" class="logo">AnxietyFree<span style="color:var(--sand)">Pups</span></a><p>Helping anxious dogs find calm since 2024.</p></div>
+  <div><h4>Top Guides</h4><ul><li><a href="../guides/calming-chews.html">Calming Chews</a></li><li><a href="../guides/thundershirt-review.html">Thundershirt Review</a></li><li><a href="../guides/separation-anxiety.html">Separation Anxiety</a></li><li><a href="../guides/nighttime-anxiety.html">Nighttime Anxiety</a></li></ul></div>
+  <div><h4>By Breed</h4><ul><li><a href="../breeds/pug.html">Pug Anxiety</a></li><li><a href="../breeds/corgi.html">Corgi Anxiety</a></li><li><a href="../breeds/golden-retriever.html">Golden Retriever</a></li></ul></div>
+  <div><h4>Resources</h4><ul><li><a href="about.html">About</a></li><li><a href="privacy.html">Privacy Policy</a></li><li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+</footer>
+<div class="footer-bottom">© 2026 AnxietyFreePups.com — Not a substitute for veterinary advice. Always consult your vet.</div>
+<div class="mobile-menu" id="mobileNav"><a href="../#guides" onclick="document.getElementById('mobileNav').classList.remove('open');document.getElementById('menuToggle').classList.remove('open')">Breed Guides</a><a href="../#products" onclick="document.getElementById('mobileNav').classList.remove('open');document.getElementById('menuToggle').classList.remove('open')">Top Products</a><a href="../#faq" onclick="document.getElementById('mobileNav').classList.remove('open');document.getElementById('menuToggle').classList.remove('open')">FAQ</a><a href="../#products" class="mob-cta" onclick="document.getElementById('mobileNav').classList.remove('open');document.getElementById('menuToggle').classList.remove('open')">Shop Now</a></div>
+</body>
+</html>

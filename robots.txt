@@ -1,7 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /resources/privacy.html
-Disallow: /resources/affiliate-disclosure.html
 
 User-agent: GPTBot
 Allow: /
