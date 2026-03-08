@@ -21,7 +21,9 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AnxietyFree Pups","description":"Expert dog anxiety solutions and affiliate product reviews","url":"https://www.anxietyfreepups.com/"}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How long does it take for calming chews to work?","acceptedAnswer":{"@type":"Answer","text":"Most calming chews take 30–90 minutes to work. Give them 45–60 minutes before a triggering event like thunderstorms, fireworks, or travel."}},{"@type":"Question","name":"Do Pugs need anxiety vests?","acceptedAnswer":{"@type":"Answer","text":"Yes — Pugs are highly prone to anxiety. A snug anxiety vest like Thundershirt can reduce stress signals by up to 80% in clinical studies."}},{"@type":"Question","name":"Are calming chews or sprays better for separation anxiety?","acceptedAnswer":{"@type":"Answer","text":"Calming chews work best for predictable events (give 45 min before). Sprays like Adaptil work faster (15 min). For separation anxiety, combine both: spray the crate and give a chew."}}]}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"></noscript>
   <style>
     :root{--cream:#FAF7F2;--warm-white:#FFFEF9;--bark:#2C1A0E;--bark-light:#5C3D2A;--moss:#3D5A3E;--moss-light:#6B8F6C;--sand:#D4A96A;--sand-light:#EDD9B0;--blush:#E8C4A0;--text:#1A1208;--text-muted:#6B5A4A;--shadow:0 4px 32px rgba(44,26,14,.10);--shadow-hover:0 12px 48px rgba(44,26,14,.18)}
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -55,7 +57,7 @@
     .hero-card.float-1{flex:1;transform:rotate(1deg);animation:float 4s ease-in-out infinite}
     .hero-card.float-2{flex:1;transform:rotate(-1deg);animation:float 5s ease-in-out 1s infinite}
     
-    .hero-card h3{font-family:'Playfair Display',serif;font-size:1.3rem;color:var(--bark);margin-bottom:.5rem}
+    .hero-card h3,.hero-card-title{font-family:'Playfair Display',serif;font-size:1.3rem;color:var(--bark);margin-bottom:.5rem}
     .hero-card p{font-size:.85rem;color:var(--text-muted);line-height:1.5}
     .stars{color:var(--sand);font-size:1rem;margin-bottom:.3rem}
     .badge-pill{display:inline-block;background:var(--moss);color:white;padding:.25rem .7rem;border-radius:100px;font-size:.72rem;font-weight:500;margin-top:.5rem}
@@ -119,7 +121,7 @@
     footer ul li{margin-bottom:.5rem}
     footer ul a{color:rgba(255,255,255,.5);text-decoration:none;font-size:.82rem;transition:color .2s}
     footer ul a:hover{color:var(--sand)}
-    .footer-bottom{background:rgba(0,0,0,.2);padding:1.2rem 5vw;text-align:center;font-size:.75rem;color:rgba(255,255,255,.3)}
+    .footer-bottom{background:rgba(0,0,0,.2);padding:1.2rem 5vw;text-align:center;font-size:.75rem;color:rgba(255,255,255,.6)}
     .affiliate-note{background:rgba(212,169,106,.1);border:1px solid rgba(212,169,106,.2);border-radius:8px;padding:1rem 1.5rem;margin-top:3rem;font-size:.75rem;color:rgba(255,255,255,.4);line-height:1.6}
     @keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
     @keyframes float{0%,100%{transform:rotate(3deg) translateY(0)}50%{transform:rotate(3deg) translateY(-10px)}}
@@ -153,6 +155,7 @@
 <button class="hamburger" id="menuToggle" aria-label="Menu" onclick="var m=document.getElementById('mobileNav');m.classList.toggle('open');this.classList.toggle('open')"><span></span><span></span><span></span></button>
 </header>
 
+<main>
 <section class="hero">
   <div class="hero-text">
     <div class="hero-badge">🐾 Vet-Reviewed Recommendations</div>
@@ -167,7 +170,7 @@
     <div class="hero-card-stack">
       <div class="hero-card main">
         <div style="width:100%;height:130px;background:linear-gradient(135deg,#D4A96A 0%,#8B5E3C 100%);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:5rem;margin-bottom:1rem">🐕</div>
-        <h3>Separation Anxiety Guide</h3>
+        <p class="hero-card-title">Separation Anxiety Guide</p>
         <p>The complete system — calming chews, training protocols, and the right crate setup for your breed.</p>
         <div class="stars">★★★★★</div>
         <span class="badge-pill">Most Popular Guide</span>
@@ -175,12 +178,12 @@
       <div class="float-row" style="display:flex;gap:1rem">
         <div class="hero-card float-1" style="flex:1;transform:rotate(1deg)">
           <div class="stars">★★★★★</div>
-          <h3 style="font-size:.9rem">Calming Chews</h3>
+          <p style="font-size:.9rem;font-family:'Playfair Display',serif;font-weight:700;color:var(--bark);margin-bottom:.3rem">Calming Chews</p>
           <p style="font-size:.78rem">Work in 30–90 min. Best for fireworks &amp; vet visits.</p>
         </div>
         <div class="hero-card float-2" style="flex:1;transform:rotate(-1deg)">
           <span style="font-size:1.4rem">⚡</span>
-          <h3 style="font-size:.9rem">Quick Win</h3>
+          <p style="font-size:.9rem;font-family:'Playfair Display',serif;font-weight:700;color:var(--bark);margin-bottom:.3rem">Quick Win</p>
           <p style="font-size:.78rem">Thundershirt: 80% success rate in trials.</p>
         </div>
       </div>
@@ -284,13 +287,14 @@
   <a href="#breeds" class="btn-primary">Find My Dog's Guide →</a>
 </div>
 
+</main>
 <footer>
   <div>
     <a href="./" class="logo">AnxietyFree<span style="color:var(--sand)">Pups</span></a>
     <p>Helping anxious dogs and their owners find calm since 2024. All product recommendations are independently researched. We participate in the Amazon Associates Program and Chewy affiliate program.</p>
     <div class="affiliate-note">⚠️ <strong style="color:rgba(255,255,255,.5)">Affiliate Disclosure:</strong> AnxietyFreePups.com earns commissions when you purchase through our links, at no additional cost to you. This never influences our recommendations.</div>
   </div>
-  <div><h4>Top Guides</h4><ul><li><a href="guides/calming-chews.html">Calming Chews Guide</a></li><li><a href="guides/thundershirt-review.html">Thundershirt Review</a></li><li><a href="guides/separation-anxiety.html">Separation Anxiety</a></li><li><a href="guides/nighttime-anxiety.html">Nighttime Anxiety</a></li><li><a href="guides/nighttime-anxiety.html">Nighttime Anxiety</a></li></ul></div>
+  <div><h4>Top Guides</h4><ul><li><a href="guides/calming-chews.html">Calming Chews Guide</a></li><li><a href="guides/thundershirt-review.html">Thundershirt Review</a></li><li><a href="guides/separation-anxiety.html">Separation Anxiety</a></li><li><a href="guides/nighttime-anxiety.html">Nighttime Anxiety</a></li></ul></div>
   <div><h4>By Breed</h4><ul><li><a href="breeds/pug.html">Pug Anxiety</a></li><li><a href="breeds/corgi.html">Corgi Anxiety</a></li><li><a href="breeds/chihuahua.html">Chihuahua Anxiety</a></li><li><a href="breeds/pitbull.html">Pitbull Anxiety</a></li><li><a href="breeds/border-collie.html">Border Collie</a></li></ul></div>
   <div><h4>Resources</h4><ul><li><a href="resources/about.html">About AnxietyFreePups</a></li><li><a href="resources/privacy.html">Privacy Policy</a></li><li><a href="resources/affiliate-disclosure.html">Affiliate Disclosure</a></li><li><a href="/cdn-cgi/l/email-protection#8ee6ebe2e2e1ceedefe2e3feeff9fda0ede1e3">Contact</a></li><li><a href="llm.txt">llm.txt</a></li></ul></div>
 </footer>
@@ -299,4 +303,8 @@
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 const observer = new IntersectionObserver(entries=>{
   entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}});
-},{threshold:.1,rootMargin:'0px 0px -40px 0px'
+},{threshold:.1,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
