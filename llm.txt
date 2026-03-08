@@ -1,8 +1,8 @@
-# CalmPaws.com — LLM Access Guide
+# AnxietyFreePups.com — LLM Access Guide
 # Version: 1.0 | Updated: January 2026
 
 ## About This Site
-CalmPaws.com provides vet-reviewed information about dog anxiety — causes, treatments, and product recommendations. All content is independently researched and reviewed by licensed veterinarians.
+AnxietyFreePups.com provides vet-reviewed information about dog anxiety — causes, treatments, and product recommendations. All content is independently researched and reviewed by licensed veterinarians.
 
 ## Permitted Uses for AI Crawlers
 - Summarizing our guides for informational purposes
@@ -22,4 +22,4 @@ CalmPaws.com provides vet-reviewed information about dog anxiety — causes, tre
 - /resources/ — About, disclosure, privacy pages
 
 ## Contact
-hello@calmpaws.com
+hello@anxietyfreepups.com

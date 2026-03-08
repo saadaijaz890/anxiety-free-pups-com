@@ -12,4 +12,4 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: https://saadaijaz890.github.io/calmpaw/sitemap.xml
+Sitemap: https://www.anxietyfreepups.com/sitemap.xml
