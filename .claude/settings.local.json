@@ -19,7 +19,8 @@
       "WebFetch(domain:meetglimpse.com)",
       "WebFetch(domain:puptalk.co.uk)",
       "WebFetch(domain:theprogress.com)",
-      "WebFetch(domain:www.newsweek.com)"
+      "WebFetch(domain:www.newsweek.com)",
+      "Bash(curl:*)"
     ]
   }
 }
