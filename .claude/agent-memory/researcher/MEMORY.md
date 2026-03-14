@@ -30,16 +30,18 @@
 - Car travel anxiety for Golden Retrievers — NOT a dedicated article (guides/car-travel-anxiety.html is cross-breed)
 
 ## Coverage Gaps Confirmed (German Shepherd)
-- Leash reactivity / fear-based reactivity deep-dive — NOT covered (breed page has one warning box + one FAQ; no protocol; guides/leash-reactivity.html is cross-breed)
+- Leash reactivity / fear-based reactivity deep-dive — WRITTEN: german-shepherd-leash-reactivity-protocol (published)
+- Humane training without shock collars — NOT covered (breed page has zero positive-reinforcement protocol; strong PAA demand from "train without shock collar" and "humane alternative" queries)
 - Puppy fear periods / socialization anxiety — NOT covered (breed page has zero puppy-specific content)
 - Nighttime anxiety / hypervigilance at night — NOT covered (breed page has zero nighttime content; guides/nighttime-anxiety.html is cross-breed)
-- Working-line vs show-line anxiety management — NOT covered (breed page has one tip box only)
 - GSD-specific noise phobia (fireworks/thunderstorm) — NOT a dedicated article (breed page has a brief section; guides/noise-phobia.html is cross-breed)
+- Discipline without punishment / red-flag behavior — NOT covered (breed page has one warning box on fear reactivity; no dedicated protocol)
 
 ## High-Scoring Topic Patterns by Breed (continued)
-- german-shepherd: leash reactivity / fear-based reactivity scores highest — breed page explicitly warns about it but gives no protocol; multiple dedicated GSD-specific sites confirm strong PAA demand
-- german-shepherd: puppy fear periods scores high — completely uncovered on breed page; developmental window creates urgency
-- german-shepherd: nighttime restlessness scores high — hypervigilance is GSD-specific trait; guides/nighttime-anxiety.html is generic only
+- german-shepherd: humane training / shock collar alternatives scores 15/15 — two explicit PAA queries align; zero coverage on breed page; strong affiliate (harnesses, vibration collars, clicker tools)
+- german-shepherd: leash reactivity / fear-based reactivity — WRITTEN (german-shepherd-leash-reactivity-protocol)
+- german-shepherd: puppy fear periods scores 13 — completely uncovered on breed page; developmental window creates urgency; AKC + germanshepherds.com forum confirm demand
+- german-shepherd: nighttime restlessness scores 13 — hypervigilance is GSD-specific trait; dogsandclogs.com dedicated article confirms demand; guides/nighttime-anxiety.html is generic only
 
 ## Coverage Gaps Confirmed (Poodle)
 - Separation anxiety (Toy vs Standard, hyperbonding) — NOT covered (breed page has one brief paragraph on social isolation; guides/separation-anxiety.html is generic)
@@ -64,6 +66,31 @@
 - french-bulldog: puppy crate training scores 15/15 — frenchbulldognews has dedicated threads; frenchbulldogowner.com has dedicated article; breed page has zero crate content
 - french-bulldog: separation anxiety scores 14/15 — highest volume topic with 8+ dedicated articles across top sites
 - french-bulldog: BOAS breathing-anxiety overlap scores 14/15 — unique breed-specific angle; no other affiliate site covers it
+
+## Coverage Gaps Confirmed (Husky)
+- Puppy crate training / nighttime crying — NOT covered (breed page has a brief crate tip box but zero puppy-specific protocol; multiple dedicated sites and Quora threads confirm demand)
+- Thunderstorm / fireworks noise phobia — NOT covered (breed page has zero noise phobia content; snowdog.guru has dedicated article confirming demand; guides/noise-phobia.html is cross-breed)
+- Apartment-specific howling / neighbor management — NOT covered (breed page lists howling as symptom only; dialavet.com and Quora threads confirm demand from apartment owners)
+- Escape-proofing / escape attempt protocol — NOT covered (breed page lists escape attempts as symptom only; no containment or escape-proofing protocol anywhere)
+- Car travel and vet visit anxiety — NOT covered (both existing guides are cross-breed; lower novelty score due to generic guides already existing)
+
+## High-Scoring Topic Patterns by Breed (continued)
+- husky: puppy crate training scores 14 — multiple dedicated how-to articles confirm demand; breed page has zero puppy-specific content; strong affiliate (heavy-duty crate, calming chews, KONG)
+- husky: thunderstorm/fireworks scores 13 — snowdog.guru has dedicated article; fireworks spike in June/July; strong affiliate (Sileo, Adaptil, Thundershirt)
+- husky: apartment howling / neighbor management scores 13 — dialavet.com, Quora threads confirm very specific audience pain; completely uncovered on site
+- husky: escape-proofing protocol scores 12 — breed page mentions escape as symptom; no dedicated content; moderate affiliate (heavy-duty crate, containment products)
+
+## Coverage Gaps Confirmed (Corgi)
+- Puppy crate training / nighttime crying — NOT covered (breed page has zero puppy-specific content; corgiadoption.com and mycorgi.com forum threads confirm demand)
+- Herding + nipping children as anxiety-driven behavior — NOT covered (breed page covers alert barking generally; ZoomRoom, doggoneproblems.com, mycorgi.com have dedicated articles/threads)
+- Thunderstorm and fireworks anxiety — NOT covered (breed page has zero noise phobia content; guides/noise-phobia.html is cross-breed only)
+- Corgi whining / vocalizing protocol — NOT covered (breed page covers barking; breed-specific whining has distinct causes per aleant.org, corgiadoption.com)
+- Car travel anxiety — NOT covered (guides/car-travel-anxiety.html is cross-breed only; lower novelty score)
+
+## High-Scoring Topic Patterns by Breed (continued)
+- corgi: puppy crate training / nighttime crying scores 14 — multiple dedicated Corgi community articles confirm demand; breed page has zero puppy content; strong affiliate (crate cover, KONG, calming chews)
+- corgi: herding/nipping children anxiety redirect scores 14 — ZoomRoom, doggoneproblems.com, mycorgi.com all have dedicated content; completely uncovered on site; unique breed angle
+- corgi: thunderstorm/fireworks scores 13 — seasonal spike (June/July fireworks); breed page has zero noise content; guides/noise-phobia.html is generic only
 
 ## Guides Already Existing (cross-breed, do not duplicate)
 - guides/calming-chews.html

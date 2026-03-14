@@ -28,7 +28,8 @@
       "Read(//c/Users/Saad/.claude/**)",
       "Bash(curl -s \"https://random-dog-facts.p.rapidapi.com/\" \\\\\n  -H \"x-rapidapi-host: random-dog-facts.p.rapidapi.com\" \\\\\n  -H \"x-rapidapi-key: d61f48d87dmsh805e5cd0bbe5febp18e13djsnc97d6c0b88e2\"\n\ncurl -s \"https://random-dog-facts.p.rapidapi.com/facts\" \\\\\n  -H \"x-rapidapi-host: random-dog-facts.p.rapidapi.com\" \\\\\n  -H \"x-rapidapi-key: d61f48d87dmsh805e5cd0bbe5febp18e13djsnc97d6c0b88e2\")",
       "WebFetch(domain:rapidapi.com)",
-      "Bash(ls /c/Users/Saad/Downloads/calmpaw/*.js 2>/dev/null || echo \"No JS files in root\")"
+      "Bash(ls /c/Users/Saad/Downloads/calmpaw/*.js 2>/dev/null || echo \"No JS files in root\")",
+      "Bash(ls blogs/husky* blogs/corgi*)"
     ]
   }
 }

@@ -9,6 +9,8 @@
 - german-shepherd (2026-03-11)
 - poodle (2026-03-12)
 - french-bulldog (2026-03-13)
+- husky (2026-03-14)
+- corgi (2026-03-14)
 
 ## Rotated Homepage Cards
 <!-- Cards removed from .articles-grid to make room for new articles. -->
@@ -18,6 +20,8 @@
 - 2026-03-11: guides/nighttime-anxiety.html — "How to Stop an Old Dog From Crying at Night"
 - 2026-03-12: guides/calming-chews.html — "Zylkene vs Purina Pro Plan Calming Care: Which Wins?"
 - 2026-03-13: guides/separation-anxiety.html — "Dog Separation Anxiety: The 3-Layer Protocol That Works"
+- 2026-03-14: guides/calming-chews.html — "How Long Do Calming Chews Take to Work?"
+- 2026-03-14: blogs/golden-retriever-puppy-crate-anxiety — "Golden Retriever Puppy Crate Anxiety: 7-Night Protocol That Actually Works"
 
 ## Edit Patterns
 <!-- Any tricky edit patterns discovered (e.g., whitespace quirks in specific files). -->
