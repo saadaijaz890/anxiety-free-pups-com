@@ -104,3 +104,9 @@
 - guides/rescue-dog-anxiety.html
 - guides/noise-phobia.html
 - guides/enrichment-for-anxiety.html
+
+## Thundershirt Content Audit (March 2026)
+- guides/thundershirt-review.html covers: does it work, sizing table, how to put it on, fit/tightness, wear duration, side effects, separation anxiety, troubleshooting
+- NOT covered anywhere on site: Thundershirt alternatives comparison, Thundershirt vs calming chews stack guide, fireworks-specific event protocol, breed-specific fit guide for large breeds, DIY anxiety wrap
+- High-scoring cross-guide topics: alternatives comparison (15), vs calming chews (14), fireworks protocol (13)
+- Seasonal note: fireworks/July 4th protocol is a top Thundershirt query — publish by June
